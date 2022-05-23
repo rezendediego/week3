@@ -23,6 +23,8 @@ template HitAndBlow() {
 
     // Output
     signal output solnHashOut;
+    
+
 
     var guess[4] = [pubGuessA, pubGuessB, pubGuessC, pubGuessD];
     var soln[4] =  [privSolnA, privSolnB, privSolnC, privSolnD];
